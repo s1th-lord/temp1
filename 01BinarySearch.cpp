@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. 
+// The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(Log n). 
 
 int Bsearch(int arr[], int n, int x){
     int low = 0, high = n-1;
